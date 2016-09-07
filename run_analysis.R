@@ -85,7 +85,5 @@ grp <- group_by(tidy_table, Subject, Activity, Feature, Function, Direction)
 average_table <- summarize(grp, Average = mean(Measurement))
 
 
-## Finally, write out the average table to the current working directory and print the table
-## to the console.
-write.table(average_table, "averages")
+## Finally, print the table to the console.
 print(average_table)
