@@ -88,4 +88,4 @@ with the average of each variable for each activity and each subject.
 Group the table by Subject, Activity, Feature, Function, and Direction.
 Then calculate the mean for each group to get the average per group.
 
-Finally, write out the average table to the current working directory.
+Finally, print the average table to the console.
