@@ -36,6 +36,8 @@ This script creates two tables of interest:
 
 For the definitions and values of the table variables, please see the Code Book included in this repository.
 
+Note that this script will produce a warning: "Too few values at X locations..." This warning stems from the fact that not every row in the tables will have a Direction value.  This is okay - these rows will be set to NA in the Direction column.
+
 To see the details of the steps used to create these two tables, I have included the script comments here for convenience:
 
 ### STEP 0: Load libraries and read in the raw data files.
